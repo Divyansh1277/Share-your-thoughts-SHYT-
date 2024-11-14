@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Share Your Thoughts</title>
+</head>
+<body>
+    <header>
+        <h1>Share Your Thoughts and Stories</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#inspiration">Our Inspiration</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#chat">Live Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="introduction">
+            <h2>Welcome to Our Community</h2>
+            <p>At Share Your Thoughts, we believe in the power of stories to inspire, motivate, and connect people. Share your experiences and learn from others in a supportive environment.</p>
+        </section>
+
+        <section id="home">
+            <h2>Share Your Story</h2>
+            <textarea id="storyInput" placeholder="Write your story or advice here..." rows="5"></textarea>
+            <button id="submitStory">Submit</button>
+            <input type="text" id="searchBar" placeholder="Search stories..." oninput="searchStories()">
+        </section>
+
+        <section>
+            <h2>Community Stories</h2>
+            <div id="storyList">
+                <div class="story-item">"I learned that failure is just a step towards success. Embrace it!"</div>
+                <div class="story-item">"My journey of starting a business taught me resilience and patience."</div>
+            </div>
+        </section>
+
+        <section id="profile">
+            <h2>User Profile</h2>
+            <img src="CA11/project/my image.jpeg" alt="Profile Picture" class="profile-pic">
+            <p><strong>Name:</strong> Divyansh Kumar</p>
+            <p><strong>Bio:</strong> Student of Btech(cse)</p>
+            <p><strong>Interests:</strong> Playing Chess,Writing ,Singing </p>
+        </section>
+
+        <section id="inspiration">
+            <h2>Our Inspiration</h2>
+            <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+            <p>"Your life is your story, and the adventure ahead of you is the journey to fulfill your own purpose and potential." - Kerry Washington</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Users Say</h2>
+            <blockquote>"This platform changed my life! I found the support I needed." - Himanga Kashyap</blockquote>
+            <blockquote>"Sharing my story helped me heal and connect with others." -Chirag Soni</blockquote>
+            <blockquote>"A wonderful community where everyone is welcome!" -Ishan Pandey</blockquote>
+        </section>
+
+        <section id="cta">
+            <h2>Join Us Today!</h2>
+            <p>Become a part of our community and start sharing your journey. Together, we can inspire and uplift each other.</p>
+            <button id="joinButton">Join Now</button>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@shareyourthoughts.com</p>
+        <p>&copy; 2024 Share Your Thoughts. All rights reserved.</p>
+    </footer>
+
+    <div id="chat" class="chat-box">
+        <h3>Live Chat</h3>
+        <p>Chat functionality coming soon!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
